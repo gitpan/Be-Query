@@ -15,4 +15,5 @@ use ExtUtils::MakeMaker;
 );
 
 die "OS unsupported" unless $^O eq "BeOS";
+
 WriteMakefile(@mm);
