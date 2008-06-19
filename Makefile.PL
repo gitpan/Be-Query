@@ -14,4 +14,5 @@ use ExtUtils::MakeMaker;
 #    'xs_cpp'	=> 'Query.xs',
 );
 
+die "OS unsupported" unless $^O eq "BeOS";
 WriteMakefile(@mm);

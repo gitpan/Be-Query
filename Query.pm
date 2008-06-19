@@ -14,7 +14,7 @@ require AutoLoader;
 @EXPORT = qw(
 	
 );
-$VERSION = '0.01';
+$VERSION = '0.01.1';
 
 bootstrap Be::Query $VERSION;
 
